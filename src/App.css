@@ -1,0 +1,199 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #151412;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+/* body {
+  color: beige;
+} */
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  color: beige;
+}
+.title h1:hover {
+  color: #c7a17a;
+}
+.title .navbar {
+  display: flex;
+  margin: 10px;
+}
+.title .navbar a:hover {
+  color: #c7a17a;
+}
+.title .navbar a {
+  text-decoration: none;
+  background-color: none;
+  color: beige;
+  /* color: white; */
+}
+.title .navbar div {
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 30px;
+  width: 180px;
+  text-align: center;
+}
+
+.s1 {
+  display: flex;
+  color: beige;
+}
+.s1 .one {
+  text-align: center;
+  height: 768px;
+  width: 1366px;
+  background-image: url("./assets/elements-project-pres-4.jpg");
+  background-position: left top;
+  background-size: cover;
+}
+.s1 .one h1:hover {
+  color: #c7a17a;
+}
+.s1 .one h1 {
+  background: none;
+}
+.s1 .one p {
+  background: none;
+}
+.s1 .one button {
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+}
+.s1 .one button a {
+  text-decoration: none;
+  background-color: none;
+  color: white;
+}
+.s1 .one button a:hover {
+  color: #c7a17a;
+}
+
+.s2 {
+  margin-top: 40px;
+  color: beige;
+}
+.s2 h4 {
+  color: #c7a17a;
+  text-align: center;
+  font-weight: normal;
+}
+.s2 h1 {
+  text-align: center;
+}
+.s2 .flavors {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.s2 .flavors figure {
+  margin-left: 80px;
+  margin-top: 10px;
+  width: 240px;
+}
+
+.s3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 290px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  width: 820px;
+  color: beige;
+}
+.s3 .op {
+  width: 820px;
+}
+.s3 .op h1 {
+  margin: 20px;
+  width: 620px;
+}
+.s3 .op .op {
+  display: flex;
+}
+.s3 .op .op .days {
+  width: 280px;
+}
+.s3 .op .op .days h3 {
+  padding: 8px;
+}
+.s3 .op .op .times {
+  width: 340px;
+}
+.s3 .op .op .times h2 {
+  padding: 1px;
+}
+
+.s4 {
+  display: flex;
+  justify-content: center;
+  color: beige;
+}
+.s4 .menu {
+  width: 600px;
+  height: 270px;
+}/*# sourceMappingURL=main.css.map */
+/* .container{
+  background-color: beige;
+} */
+/* form {
+  /* background-color: white; */
+  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); */
+  /* text-decoration-color: beige; */
+/* } */
+.br{
+  color: white;
+}
